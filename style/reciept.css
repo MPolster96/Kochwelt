@@ -1,0 +1,203 @@
+.autor-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.rec-cred {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  background-color: #efefef;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.rec-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.rec-head-cred {
+  display: flex;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.rec-head-icon {
+  width: 15px;
+}
+
+.rec-head-img {
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.rec-margin {
+  margin: 0 180px 0 180px;
+}
+
+.img-autor {
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/MaxKoch.jpg);
+  border-radius: 50%;
+  background-size: cover;
+  margin: 20px 20px 20px 0px;
+}
+.ing-amount {
+  padding: 15px 0 15px 25px;
+}
+
+.ing-amount-port {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.ing-button {
+  width: 140px;
+  color: white;
+  background-color: green;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  border: 9.5px solid green;
+  border-radius: 0 5px 5px 0;
+}
+
+.ing-input {
+  margin-left: 15px;
+  border: 2px solid #efefef;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 120px;
+  padding-left: 12px;
+  height: 29.5px;
+}
+
+.ingredient-odd {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  background-color: #efefef;
+  border-radius: 15px;
+  min-height: 46px;
+  border-color: #efefef;
+  border-style: solid;
+  border-width: 1px;
+}
+.ingredient-even {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  min-height: 46px;
+  border-radius: 15px;
+  border-color: #efefef;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.rec-amount {
+  display: flex;
+}
+
+.recp-text {
+  margin-bottom: 25px;
+}
+
+/* 690px */
+
+@media (max-width: 690px) {
+  .ing-amount-port {
+    justify-content: center;
+  }
+  .rec-head-img {
+    height: 150px;
+  }
+  .rec-head-cred {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+/* 520px */
+
+@media (max-width: 520px) {
+  h1 {
+    text-align: center;
+  }
+}
+
+/* 460px */
+
+@media (max-width: 460px) {
+  .ing-amount-port {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .ing-input {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    margin-left: 0;
+  }
+
+  .sec-ing {
+    font-size: 14px;
+  }
+
+  .autor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+}
+
+/* 390px */
+
+@media (max-width: 390px) {
+  .rec-amount {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .ing-input {
+    width: 70px;
+  }
+
+  .ing-amount-port {
+    border-top: 1px solid #efefef;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .margin-side {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
